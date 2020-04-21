@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette&display=swap');
+html,
+body,
+header,
+#home {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+.body{
+  background-color: lightslategray;
+}
+#home {
+    background: url("https://images.unsplash.com/photo-1447703693928-9cd89c8d3ac5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#img-me{
+  margin-left: -5%;
+}
+.top-nav-collapse {
+    background-color: #45454d;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #45454d;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #45454d;
+    }
+  }
+#name{
+    color: rgb(45, 156, 184);
+    text-transform: uppercase;
+    padding-top: 10%;
+    padding-bottom: 10px;
+    font-family: 'Courgette', cursive;
+    text-decoration: none !important;
+}
+hr.new5 {
+  border: 1px solid rgb(13, 78, 98);
+  width: 80%;
+}
+#describe{
+  color: white;
+  font-family: 'Courgette', cursive;
+}
+.footer{
+  background-color: #45454d;
+  margin: 0% !important;
+  height: 11vh;
+}
+p#foot{
+  color: white !important;
+}
+p.grey-text{
+  margin-top: 2%;
+}
